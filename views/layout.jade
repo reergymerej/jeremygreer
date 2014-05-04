@@ -1,5 +1,5 @@
 doctype html
-html
+html(ng-app='jg')
   head
     title= title
     meta(charset='utf-8')
@@ -13,10 +13,14 @@ html
     include header.html
 
     //- page content
-    block content
+    div(ng-view)
 
-    //- scripts
+    //- library scripts
     script(src='/bower_components/jquery/dist/jquery.js')
     script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
     script(src='/bower_components/angular/angular.js')
     script(src='/bower_components/angular-route/angular-route.js')
+
+    //- app
+    script(src='/js/app.js')
+    script(src='/js/controllers/HeaderCtrl.js')

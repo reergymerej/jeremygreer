@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"rout",
+				"routeProvider"
+			],
+			[
+				"angu",
+				"angular-route"
+			],
+			[
 				"template",
 				"templateUrl"
 			],
@@ -506,56 +514,40 @@
 			[
 				"downT",
 				"downstreamTaskIndex"
-			],
-			[
-				"downs",
-				"downstreamTaskId"
-			],
-			[
-				"dow",
-				"downstreamTaskIndex"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "routes/index.js",
+			"file": "views/layout.jade",
 			"settings":
 			{
-				"buffer_size": 124,
+				"buffer_size": 715,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "views/index.jade",
+			"file": "views/index.html",
 			"settings":
 			{
-				"buffer_size": 163,
+				"buffer_size": 136,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app.js",
+			"file": "public/js/app.js",
 			"settings":
 			{
-				"buffer_size": 1358,
+				"buffer_size": 388,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "package.json",
+			"file": ".jshintrc",
 			"settings":
 			{
-				"buffer_size": 333,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/stylesheets/style.css",
-			"settings":
-			{
-				"buffer_size": 93,
+				"buffer_size": 347,
 				"line_ending": "Unix"
 			}
 		}
@@ -567,6 +559,18 @@
 		"selected_items":
 		[
 			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
 				"sav",
 				"Project: Save As"
 			],
@@ -575,20 +579,12 @@
 				"View: Toggle Open Files in Side Bar"
 			],
 			[
-				"refre",
-				"Project: Refresh Folders"
-			],
-			[
 				"save",
 				"Project: Save As"
 			],
 			[
 				"lint",
 				"SublimeLinter: Lint This View"
-			],
-			[
-				"json",
-				"Set Syntax: JSON"
 			],
 			[
 				"code fo",
@@ -797,6 +793,14 @@
 	},
 	"file_history":
 	[
+		"/home/grizzle/code/jeremygreer/views/index.jade",
+		"/home/grizzle/code/jeremygreer/app.js",
+		"/home/grizzle/code/jeremygreer/views/error.jade",
+		"/home/grizzle/code/jeremygreer/views/header.html",
+		"/home/grizzle/code/jeremygreer/public/stylesheets/style.css",
+		"/home/grizzle/code/jeremygreer/views/index.html",
+		"/home/grizzle/code/jeremygreer/package.json",
+		"/home/grizzle/code/jeremygreer/routes/index.js",
 		"/home/grizzle/code/jeremygreer/.gitignore",
 		"/home/grizzle/code/jeremygreer/README.md",
 		"/home/grizzle/code/mileage/node_modules/express/LICENSE",
@@ -916,15 +920,7 @@
 		"/home/grizzle/code/mean-tasks/node_modules/grunt-nodemon/node_modules/nodemon/tmp/express-boilerplate/app/server/index.coffee",
 		"/home/grizzle/code/mean-tasks/node_modules/forever/node_modules/optimist/node_modules/wordwrap/index.js",
 		"/home/grizzle/code/mean-tasks/app/views/index.html",
-		"/home/grizzle/code/mean-tasks/node_modules/bower/node_modules/archy/package.json",
-		"/home/grizzle/code/mean-tasks/public/lib/bootstrap/js/tooltip.js",
-		"/home/grizzle/code/mean-tasks/public/lib/bootstrap/js/tab.js",
-		"/home/grizzle/code/mean-tasks/app/views/users/signup.html",
-		"/home/grizzle/code/mean-tasks/public/css/views/articles.css",
-		"/home/grizzle/code/mean-tasks/node_modules/view-helpers/index.js",
-		"/home/grizzle/code/mean-tasks/node_modules/express/lib/view.js",
-		"/home/grizzle/code/mean-tasks/node_modules/bower/node_modules/mout/collection/filter.js",
-		"/home/grizzle/code/mean-tasks/config/config.js"
+		"/home/grizzle/code/mean-tasks/node_modules/bower/node_modules/archy/package.json"
 	],
 	"find":
 	{
@@ -979,6 +975,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"//",
+			": ",
+			"engine",
 			"  ",
 			"Date",
 			"add",
@@ -1103,10 +1102,7 @@
 			"username",
 			"config",
 			"helpers",
-			"config",
-			"appName",
-			"karma",
-			"karma-requirejs"
+			"config"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1252,29 +1248,31 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "routes/index.js",
+					"file": "views/layout.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 124,
+						"buffer_size": 715,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								111,
-								111
+								24,
+								24
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1284,24 +1282,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "views/index.jade",
+					"file": "views/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 163,
+						"buffer_size": 136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								163,
-								163
+								23,
+								23
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1311,54 +1309,26 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app.js",
+					"file": "public/js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1358,
+						"buffer_size": 388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								851,
-								851
+								371,
+								371
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 234.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 333,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								199,
-								199
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1368,25 +1338,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "public/stylesheets/style.css",
+					"buffer": 3,
+					"file": ".jshintrc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 93,
+						"buffer_size": 347,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								77,
-								77
+								302,
+								302
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1447,6 +1419,22 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				".js",
+				".jshintrc"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"styel/",
+				"public/stylesheets/style.css"
+			],
+			[
+				"view/lay",
+				"views/layout.jade"
+			],
 			[
 				"inde",
 				"views/index.jade"
@@ -1665,10 +1653,6 @@
 			],
 			[
 				".jshin",
-				".jshintrc"
-			],
-			[
-				".js",
 				".jshintrc"
 			],
 			[
@@ -1946,18 +1930,6 @@
 			[
 				"pub/js/fi",
 				"public/js/filters.js"
-			],
-			[
-				"pub/view/doing/",
-				"public/views/doing/list.html"
-			],
-			[
-				"app/model/don",
-				"app/models/doing-task.js"
-			],
-			[
-				"test/moch/todo/mod",
-				"test/mocha/todo-task/model.js"
 			]
 		],
 		"width": 0.0
