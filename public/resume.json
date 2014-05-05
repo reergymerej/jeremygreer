@@ -1,0 +1,100 @@
+{
+    "name": "Jeremy Greer",
+    "address": "Atlanta, GA 30040",
+    "email": "jeremy.greer.atl@gmail.com",
+    "url": "https://github.com/reergymerej/",
+    "objective": "Join a team of expert JavaScript developers focused on quality and modern methodologies.  Meet constant challenges to improve skills and learn new technology.",
+    "skills": [
+        "OO JavaScript",
+        "Ext JS",
+        "JSLint/JSHint",
+        "Angular JS",
+        "Express",
+        "Node.js",
+        "MongoDB",
+        "Jasmine",
+        "Git",
+        "npm/Bower",
+        "YUIDoc/jsduck",
+        "Backbone.js",
+        "Underscore.js",
+        "jQuery",
+        "Require.js",
+        "Sass",
+        "Twitter Bootstrap/jQuery UI",
+        "Linux"
+    ],
+    "experience": [
+        {
+            "company": "Ipswitch",
+            "dates": "2013 - current",
+            "title": "UI Architect",
+            "bullets": [
+                "Responsible for designing and maintaining single-page network monitoring app UI using Ext JS 4.2, REST services through OData, and .NET.",
+                "Created extensible UI platform components reducing implementation time from weeks to minutes.  Developed framework of dashboards with complex reports and filtering.",
+                "Introduced and implemented client-side MVC architecture, separation of concerns, and lazy loading.  Extended Ext JS framework to allow AngularJS-style component-localized controllers.",
+                "Created coding standards and design patterns.  Performed code reviews to ensure code hygiene and adherence to standards.  Introduced unit test suites using Jasmine.",
+                "Added JSHint to the automated build.  Refactored existing code from 3,000+ errors down to 0.  Committed 40,000+ lines of lint-free code.",
+                "Mentored developers in advanced JS, frameworks, implementations, and patterns.  Instituted a book club to sharpen developers' skills and encourage professional growth.  Regularly hosted lunch & learn sessions."
+            ]
+        },
+        {
+            "company": "Celerant",
+            "dates": "2012 - 2013",
+            "title": "Lead Developer",
+            "bullets": [
+                "Lead development on a large scale web-based POS system.",
+                "Developed system of AMD modules to load based on page content and user action using Require.js, jQuery, and AJAX.",
+                "Created a custom JS library to convert JSON into a database.  Bound table CRUD operations to DOM elements including dynamically generated SlickGrids.  Performed heavy data manipulation.",
+                "Developed a system to recursively evaluate compound logical expressions represented as strings without eval.",
+                "Compartmentalized application to allow creation of new instances within itself as modal windows.  Used injection to trigger callbacks after initialization and destruction."
+            ]
+        },
+        {
+            "company": "Silverpop",
+            "dates": "2008 - 2012",
+            "title": "Engineering Support",
+            "bullets": [
+                "Developed the industry's first Excel add-in utilizing XML API.",
+                "Created multiple tools to expedite daily tasks using PHP/MySQL/AJAX.",
+                "Built a web-based app which became part of the standard toolbox of applications for internal use.",
+                "Awarded Employee of the Month (June 2010) for outstanding performance."
+            ]
+        },
+        {
+            "company": "Williams Lea",
+            "dates": "2007 - 2008",
+            "title": "Systems Support Specialist",
+            "bullets": [
+                "Developed a package of macros to assist technicians with daily tasks.",
+                "Worked with developers creating/testing new solutions.",
+                "Awarded the Williams Lea Exceptional Award and promoted to Team Leader after five months with the company."
+            ]
+        },
+        {
+            "company": "Group Health, Inc.",
+            "dates": "2006 - 2007",
+            "title": "EDI Representative",
+            "bullets": [
+                "Created a system to update and disburse vital information daily. Increased efficiency and decreased turnaround-time for inquiries of the team.",
+                "Created Visual Basic scripts to assist with daily tasks; performed SQL queries in DB2 to generate reports.",
+                "Analyzed error reports, determined root causes, and reported resolutions to clients."
+            ]
+        },
+        {
+            "company": "Unocal Corporation",
+            "dates": "2005",
+            "title": "Help Desk Analyst",
+            "bullets": [
+                "Configured .MSI packages and distributed software via SMS.",
+                "Resolved hardware and software configuration issues.",
+                "Created and dispatched problem tickets through Siebel. "
+            ]
+        }
+    ],
+    "military": {
+        "branch": "US Army",
+        "dates": "2001 - 2004, 2008 - 2009",
+        "title": "Infantry Team Leader, Non-Commissioned Officer "
+    }
+}

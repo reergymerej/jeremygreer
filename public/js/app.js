@@ -3,7 +3,8 @@
 
     // create the app
     angular.module('jg', [
-        'ngRoute'
+        'ngRoute'/*,
+        'ngResource'*/
     ])
 
     // set up routing
@@ -11,6 +12,9 @@
         $routeProvider
             .when('/', {
                 templateUrl: '/partials/index.html'
+            })
+            .when('/resume', {
+                templateUrl: '/partials/resume.html'
             })
             .otherwise({
                 redirectTo: '/'

@@ -1,0 +1,16 @@
+<div class="container" ng-controller="ResumeCtrl">
+    <h2>Resume</h2>
+
+    <h3>Skills</h3>
+    <ul>
+        <li ng-repeat="skill in resume.skills">
+            {{ skill }}
+        </li>
+    </ul>
+
+    <ul>
+        <li ng-repeat="job in resume.experience">
+            {{ job | json }}
+        </li>
+    </ul>
+</div>
