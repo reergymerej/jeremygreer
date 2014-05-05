@@ -1,16 +1,50 @@
 <div class="container" ng-controller="ResumeCtrl">
-    <h2>Resume</h2>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Resume</h2>
 
-    <h3>Skills</h3>
-    <ul>
-        <li ng-repeat="skill in resume.skills">
-            {{ skill }}
-        </li>
-    </ul>
+            <h3>Objective</h3>
+            {{ resume.objective }}
 
-    <ul>
-        <li ng-repeat="job in resume.experience">
-            {{ job | json }}
-        </li>
-    </ul>
+            <h3>Skills</h3>
+            <ul>
+                <li ng-repeat="skill in resume.skills">
+                    {{ skill }}
+                </li>
+            </ul>
+
+            <h3>Experience</h3>
+
+            <div ng-repeat="job in resume.experience">
+                <a ng-href="#{{ job.company }}"></a>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>{{ job.company }}</h4>
+                        {{ job.title }} <small>{{ job.dates }}</small>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li ng-repeat="bullet in job.bullets">
+                                {{ bullet }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Military</h3>
+            <div class="well">
+                <h4>{{ resume.military.branch }}</h4>
+                {{ resume.military.title }} <small>{{ resume.military.dates }}</small>
+            
+            </div>
+        </div>
+        <!-- <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li ng-repeat="job in resume.experience">
+                    <a ng-href="#{{ job.company }}" href="">{{ job.company }}</a>
+                </li>
+            </ul>
+        </div> -->
+    </div>
 </div>

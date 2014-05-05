@@ -3,3 +3,10 @@ body {
     padding-top: 70px;
     padding-bottom: 30px;
 }
+
+/* resume */
+#sidebar {
+    position: fixed;
+    height: 300px;
+    background-color: pink;
+}
