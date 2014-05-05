@@ -5,6 +5,7 @@
         var Link = function (config) {
             this.text = config.text;
             this.href = config.href;
+            this.disabled = config.disabled;
         };
 
         Link.prototype.isActive = function () {
@@ -30,12 +31,14 @@
             
             new Link({
                 text: 'The Lab',
-                href: '/lab'
+                href: '/lab',
+                disabled: true
             }),
 
             new Link({
                 text: 'Contact Info',
-                href: '/contact'
+                href: '/contact',
+                disabled: true
             })
         ];
     }]);
