@@ -18,6 +18,7 @@
     "devel": true,
     
     "predef": [
-        "angular"
+        "angular",
+        "$"
     ]   
 }

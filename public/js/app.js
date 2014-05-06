@@ -16,6 +16,9 @@
             .when('/resume', {
                 templateUrl: '/partials/resume.html'
             })
+            .when('/contact', {
+                templateUrl: '/partials/contact.html'
+            })
             .otherwise({
                 redirectTo: '/'
             });

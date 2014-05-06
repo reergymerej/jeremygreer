@@ -37,8 +37,7 @@
 
             new Link({
                 text: 'Contact Info',
-                href: '/contact',
-                disabled: true
+                href: '/contact'
             })
         ];
     }]);
