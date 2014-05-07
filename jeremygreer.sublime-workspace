@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"skil",
+				"skills"
+			],
+			[
+				"skiG",
+				"skillGroupCount"
+			],
+			[
+				"skillGroup",
+				"skillGroupCount"
+			],
+			[
+				"res",
+				"resource"
+			],
+			[
 				"rout",
 				"routeProvider"
 			],
@@ -372,10 +388,6 @@
 				"controlGroup"
 			],
 			[
-				"res",
-				"result"
-			],
-			[
 				"erro",
 				"errorMessage"
 			],
@@ -502,52 +514,27 @@
 			[
 				"inde",
 				"indexB"
-			],
-			[
-				"ind",
-				"indexA"
-			],
-			[
-				"downTI",
-				"downstreamTaskId"
-			],
-			[
-				"downT",
-				"downstreamTaskIndex"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "views/layout.jade",
-			"settings":
-			{
-				"buffer_size": 715,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/index.html",
-			"settings":
-			{
-				"buffer_size": 136,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "public/js/app.js",
 			"settings":
 			{
-				"buffer_size": 388,
+				"buffer_size": 711,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".jshintrc",
+			"contents": "<section class=\"container\">\n    <h2>The Lab</h2>\n    <p>This is where you'll find the things I'm currently working on.</p>\n\n\n    asdf\n</section>",
+			"file": "public/partials/lab.html",
+			"file_size": 133,
+			"file_write_time": 130439022474113172,
 			"settings":
 			{
-				"buffer_size": 347,
+				"buffer_size": 144,
 				"line_ending": "Unix"
 			}
 		}
@@ -555,9 +542,21 @@
 	"build_system": "Packages/JSLint/JSLint.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 264.0,
 		"selected_items":
 		[
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"refr",
+				"Project: Refresh Folders"
+			],
 			[
 				"lin",
 				"SublimeLinter: Lint This View"
@@ -565,10 +564,6 @@
 			[
 				"refre",
 				"Project: Refresh Folders"
-			],
-			[
-				"json",
-				"Set Syntax: JSON"
 			],
 			[
 				"sav",
@@ -793,12 +788,23 @@
 	},
 	"file_history":
 	[
+		"/home/grizzle/code/jeremygreer/public/js/controllers/HeaderCtrl.js",
+		"/home/grizzle/code/jeremygreer/public/js/controllers/ContactCtrl.js",
+		"/home/grizzle/code/jeremygreer/.jshintrc",
+		"/home/grizzle/code/jeremygreer/public/partials/contact.html",
+		"/home/grizzle/code/jeremygreer/public/stylesheets/style.css",
+		"/home/grizzle/code/jeremygreer/public/resume.json",
+		"/home/grizzle/code/jeremygreer/public/partials/resume.html",
+		"/home/grizzle/code/jeremygreer/public/js/app.js",
+		"/home/grizzle/code/jeremygreer/views/layout.jade",
+		"/home/grizzle/code/jeremygreer/views/header.html",
+		"/home/grizzle/code/jeremygreer/public/partials/index.html",
+		"/home/grizzle/code/jeremygreer/public/js/controllers/ResumeCtrl.js",
+		"/home/grizzle/code/jeremygreer/views/index.html",
 		"/home/grizzle/code/jeremygreer/views/index.jade",
+		"/home/grizzle/code/jeremygreer/public/js/controllers/IndexCtrl.js",
 		"/home/grizzle/code/jeremygreer/app.js",
 		"/home/grizzle/code/jeremygreer/views/error.jade",
-		"/home/grizzle/code/jeremygreer/views/header.html",
-		"/home/grizzle/code/jeremygreer/public/stylesheets/style.css",
-		"/home/grizzle/code/jeremygreer/views/index.html",
 		"/home/grizzle/code/jeremygreer/package.json",
 		"/home/grizzle/code/jeremygreer/routes/index.js",
 		"/home/grizzle/code/jeremygreer/.gitignore",
@@ -909,18 +915,7 @@
 		"/home/grizzle/code/mean-tasks/node_modules/grunt-mocha-test/node_modules/fs-extra/lib/output.js",
 		"/home/grizzle/code/mean-tasks/node_modules/bower/node_modules/request/node_modules/http-signature/node_modules/ctype/README.old",
 		"/home/grizzle/code/mean-tasks/node_modules/bower/node_modules/mout/array/toLookup.js",
-		"/home/grizzle/code/mean-tasks/node_modules/jade/LICENSE",
-		"/home/grizzle/code/mean-tasks/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/examples/movies.coffee",
-		"/home/grizzle/code/mean-tasks/node_modules/grunt-mocha-test/node_modules/mocha/lib/browser/events.js",
-		"/home/grizzle/code/mean-tasks/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/jade/testing/user.jade",
-		"/home/grizzle/code/mean-tasks/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/mkdirp/test/umask_sync.js",
-		"/home/grizzle/code/mean-tasks/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/examples/usr-local.js",
-		"/home/grizzle/code/mean-tasks/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/visionmedia-debug/component.json",
-		"/home/grizzle/code/mean-tasks/public/lib/bootstrap/js/modal.js",
-		"/home/grizzle/code/mean-tasks/node_modules/grunt-nodemon/node_modules/nodemon/tmp/express-boilerplate/app/server/index.coffee",
-		"/home/grizzle/code/mean-tasks/node_modules/forever/node_modules/optimist/node_modules/wordwrap/index.js",
-		"/home/grizzle/code/mean-tasks/app/views/index.html",
-		"/home/grizzle/code/mean-tasks/node_modules/bower/node_modules/archy/package.json"
+		"/home/grizzle/code/mean-tasks/node_modules/jade/LICENSE"
 	],
 	"find":
 	{
@@ -975,6 +970,18 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"12",
+			"g",
+			"getSkillsMod",
+			"ul",
+			">\n",
+			"div",
+			"2",
+			" +\",",
+			" \",",
+			"–",
+			"resource",
+			"{",
 			"//",
 			": ",
 			"engine",
@@ -1090,19 +1097,7 @@
 			"p",
 			"span",
 			"article",
-			"articles",
-			"'/articles",
-			"articles",
-			"Article",
-			"foo",
-			"title",
-			"ArticleSchema",
-			"name",
-			"validatePresenceOf",
-			"username",
-			"config",
-			"helpers",
-			"config"
+			"articles"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1110,6 +1105,8 @@
 		"regex": true,
 		"replace_history":
 		[
+			"\",",
+			"-",
 			"    ",
 			"ng",
 			"  ",
@@ -1235,9 +1232,7 @@
 			"TodoView",
 			"todoTemplate",
 			"views/doing/TaskView",
-			"HomeView",
-			"homeTemplate",
-			"/"
+			"HomeView"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1248,85 +1243,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "views/layout.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 715,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24,
-								24
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "views/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "public/js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 388,
+						"buffer_size": 711,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								371,
-								371
+								696,
+								696
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -1338,27 +1276,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": ".jshintrc",
+					"buffer": 1,
+					"file": "public/partials/lab.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 347,
+						"buffer_size": 144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								302
+								133,
+								129
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1420,24 +1356,80 @@
 		"selected_items":
 		[
 			[
-				".js",
+				"headerct",
+				"public/js/controllers/HeaderCtrl.js"
+			],
+			[
+				".jshin",
 				".jshintrc"
 			],
 			[
-				"app",
-				"app.js"
-			],
-			[
-				"styel/",
-				"public/stylesheets/style.css"
+				"resujson",
+				"public/resume.json"
 			],
 			[
 				"view/lay",
 				"views/layout.jade"
 			],
 			[
-				"inde",
+				"part/resu",
+				"public/partials/resume.html"
+			],
+			[
+				"pub/js/ap",
+				"public/js/app.js"
+			],
+			[
+				"resumeht",
+				"public/partials/resume.html"
+			],
+			[
+				"header",
+				"views/header.html"
+			],
+			[
+				"index",
 				"views/index.jade"
+			],
+			[
+				"inde",
+				"views/index.html"
+			],
+			[
+				"part/inde",
+				"public/partials/index.html"
+			],
+			[
+				"sty",
+				"public/stylesheets/style.css"
+			],
+			[
+				"res",
+				"public/resume.json"
+			],
+			[
+				"pub/rejs",
+				"public/resume.json"
+			],
+			[
+				"pub/con",
+				"public/js/controllers/HeaderCtrl.js"
+			],
+			[
+				"pub/app",
+				"public/js/app.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				".js",
+				".jshintrc"
+			],
+			[
+				"styel/",
+				"public/stylesheets/style.css"
 			],
 			[
 				"layout",
@@ -1568,10 +1560,6 @@
 				"public/js/controllers/done.js"
 			],
 			[
-				"header",
-				"public/views/header.html"
-			],
-			[
 				"pub/js/con/doin",
 				"public/js/controllers/doing.js"
 			],
@@ -1652,10 +1640,6 @@
 				"app/controllers/articles.js"
 			],
 			[
-				".jshin",
-				".jshintrc"
-			],
-			[
 				"pub/js/cont/don",
 				"public/js/controllers/done.js"
 			],
@@ -1718,10 +1702,6 @@
 			[
 				"pub/js/con",
 				"public/js/config.js"
-			],
-			[
-				"pub/js/ap",
-				"public/js/app.js"
 			],
 			[
 				"pub/view/cate/m",
@@ -1886,50 +1866,6 @@
 			[
 				"pub/js/cont/",
 				"public/js/controllers/todo.js"
-			],
-			[
-				"app/model/user",
-				"app/models/user.js"
-			],
-			[
-				"test/moch/user/mod",
-				"test/mocha/user/model.js"
-			],
-			[
-				"test/mocha",
-				"test/mocha/user/model.js"
-			],
-			[
-				"views/done/list.html",
-				"public/views/done/list.html"
-			],
-			[
-				"pub/js/conf",
-				"public/js/config.js"
-			],
-			[
-				"filter",
-				"public/js/filters.js"
-			],
-			[
-				"test/moch/doin/mo",
-				"test/mocha/doing/model.js"
-			],
-			[
-				"views/doing/list.html",
-				"public/views/doing/list.html"
-			],
-			[
-				"pub/js/cont/hea",
-				"public/js/controllers/header.js"
-			],
-			[
-				"publi/js/contr/doin",
-				"public/js/controllers/doing.js"
-			],
-			[
-				"pub/js/fi",
-				"public/js/filters.js"
 			]
 		],
 		"width": 0.0

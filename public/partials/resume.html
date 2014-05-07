@@ -1,8 +1,9 @@
 <div class="container" ng-controller="ResumeCtrl">
+    <div class="page-header">
+        <h1>Resume <small></small></h1>
+    </div>
     <div class="row">
         <div class="col-md-12">
-            <h2>Resume</h2>
-
             <h3>Skills</h3>
             <div class="row">
                 <div ng-repeat="skillGroup in skillGroups" class="col-md-{{ 12 / skillGroupCount }}">
@@ -15,7 +16,6 @@
             </div>
 
             <h3>Experience</h3>
-
             <div ng-repeat="job in resume.experience">
                 <a ng-href="#{{ job.company }}"></a>
                 <div class="panel panel-default">

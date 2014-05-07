@@ -24,15 +24,15 @@
                 href: '/resume'
             }),
 
-            // new Link({
-            //     text: 'Portfolio',
-            //     href: '/portfolio'
-            // }),
+            new Link({
+                text: 'Portfolio',
+                href: '/portfolio',
+                disabled: true
+            }),
             
             new Link({
                 text: 'The Lab',
-                href: '/lab',
-                disabled: true
+                href: '/lab'
             }),
 
             new Link({
