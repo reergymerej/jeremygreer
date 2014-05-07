@@ -1,18 +1,30 @@
 <div class="container" ng-controller="ContactCtrl">
     <h2>Contact Info</h2>
-    <p>I would <em>love</em> for you to contact me, but you have to promise you're human.</p>
-    <form ng-submit="submitForm()">
-        <button class="btn btn-default">I'm a <em>real</em> boy!</button>
-    </form>
+    <div class="row">
+        <div class="col-md-6">
+            <p>I would love for you to contact me, but you have to promise you're human.</p>
+            <form ng-submit="submitForm()">
+                <button class="btn btn-default">I'm a <em>real</em> boy!</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <dl class="dl-horizontal">
+                <dt>Address</dt>
+                <dd>{{ contactInfo.address }}</dd>
 
-    <dl class="dl-horizontal">
-        <dt>Address</dt>
-        <dd>{{ contactInfo.address }}</dd>
+                <dt>Email</dt>
+                <dd><a ng-href="mailto:{{ contactInfo.email }}">{{ contactInfo.email }}</a></dd>
 
-        <dt>Email</dt>
-        <dd><a ng-href="mailto:{{ contactInfo.email }}">{{ contactInfo.email }}</a></dd>
-
-        <dt>Phone</dt>
-        <dd id="phone" data-toggle="tooltip" title="I never answer.">{{ contactInfo.phone }}</dd>
-    </dl>
+                <dt>Phone</dt>
+                <dd class="text-warning">
+                    <span
+                        id="phone"
+                        data-toggle="tooltip"
+                        title="I never answer."
+                        data-placement="right"
+                        >{{ contactInfo.phone }}</span>
+                </dd>
+            </dl>
+        </div>
+    </div>
 </div>
