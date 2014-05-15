@@ -1,5 +1,6 @@
 {
     "node": true,
+    "plusplus": false,
     "bitwise": true,
     "curly": true,
     "eqeqeq": true,
@@ -10,7 +11,6 @@
     "noarg": true,
     "noempty": true,
     "nonew": true,
-    "plusplus": true,
     "regexp": true,
     "undef": true,
     "strict": true,
