@@ -50,22 +50,13 @@
         */
         move: function (direction) {
             var that = this,
-                success = false;
+                success = false,
+                rows = direction === 'w' || direction === 'e';
 
-            if (direction === 'w' || direction === 'e') {
-
-                this.grid.eachRow(function (row) {
-                    var stack = new that.Stack(row);
-                    success = stack.move(direction === 'w' ? -1 : 1) || success;
-                });
-
-            } else {
-
-                this.grid.eachColumn(function (column) {
-                    var stack = new that.Stack(column);
-                    success = stack.move(direction === 'n' ? -1 : 1) || success;
-                });
-            }
+            this.grid[rows ? 'eachRow' : 'eachColumn'](function (squares) {
+                var stack = new that.Stack(squares);
+                success = stack.move(direction === (rows ? 'w' : 'n') ? -1 : 1) || success;
+            });
 
             return success;
         },
