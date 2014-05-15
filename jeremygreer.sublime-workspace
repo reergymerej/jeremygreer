@@ -528,13 +528,26 @@
 			}
 		},
 		{
-			"contents": "<section class=\"container\">\n    <h2>The Lab</h2>\n    <p>This is where you'll find the things I'm currently working on.</p>\n\n\n    asdf\n</section>",
 			"file": "public/partials/lab.html",
-			"file_size": 133,
-			"file_write_time": 130439022474113172,
 			"settings":
 			{
-				"buffer_size": 144,
+				"buffer_size": 293,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/partials/resume.html",
+			"settings":
+			{
+				"buffer_size": 1566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/partials/contact.html",
+			"settings":
+			{
+				"buffer_size": 1133,
 				"line_ending": "Unix"
 			}
 		}
@@ -542,7 +555,7 @@
 	"build_system": "Packages/JSLint/JSLint.sublime-build",
 	"command_palette":
 	{
-		"height": 264.0,
+		"height": 159.0,
 		"selected_items":
 		[
 			[
@@ -788,6 +801,7 @@
 	},
 	"file_history":
 	[
+		"/home/grizzle/code/jeremygreer/public/partials/index.html",
 		"/home/grizzle/code/jeremygreer/public/js/controllers/HeaderCtrl.js",
 		"/home/grizzle/code/jeremygreer/public/js/controllers/ContactCtrl.js",
 		"/home/grizzle/code/jeremygreer/.jshintrc",
@@ -798,7 +812,6 @@
 		"/home/grizzle/code/jeremygreer/public/js/app.js",
 		"/home/grizzle/code/jeremygreer/views/layout.jade",
 		"/home/grizzle/code/jeremygreer/views/header.html",
-		"/home/grizzle/code/jeremygreer/public/partials/index.html",
 		"/home/grizzle/code/jeremygreer/public/js/controllers/ResumeCtrl.js",
 		"/home/grizzle/code/jeremygreer/views/index.html",
 		"/home/grizzle/code/jeremygreer/views/index.jade",
@@ -970,6 +983,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"details",
+			"h3",
 			"12",
 			"g",
 			"getSkillsMod",
@@ -1095,9 +1110,7 @@
 			"article",
 			"p>",
 			"p",
-			"span",
-			"article",
-			"articles"
+			"span"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1243,7 +1256,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1281,20 +1294,78 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 144,
+						"buffer_size": 293,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								133,
-								129
+								131,
+								131
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/partials/resume.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/partials/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1355,6 +1426,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"partial/",
+				"public/partials/contact.html"
+			],
+			[
+				"part/res",
+				"public/partials/resume.html"
+			],
+			[
+				"part/ind",
+				"public/partials/index.html"
+			],
 			[
 				"headerct",
 				"public/js/controllers/HeaderCtrl.js"
@@ -1854,18 +1937,6 @@
 			[
 				"pub/js/a",
 				"public/js/app.js"
-			],
-			[
-				"pub/js/serv/todo",
-				"public/js/services/todo-tasks.js"
-			],
-			[
-				"test/mocha/cate",
-				"test/mocha/category/model.js"
-			],
-			[
-				"pub/js/cont/",
-				"public/js/controllers/todo.js"
 			]
 		],
 		"width": 0.0

@@ -1,3 +1,5 @@
+'use strict';
+
 // process.env.NODE_ENV = 'production';
 var express = require('express');
 var http = require('http');
@@ -9,6 +11,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes');
 var users = require('./routes/user');
+var lab2048 = require('./routes/lab/2048');
 
 var app = express();
 
@@ -29,6 +32,9 @@ app.use('/bower_components', express.static(path.join(__dirname, '/bower_compone
 
 app.use(app.router);
 
+// ================================================
+// routes
+
 // Watch for requests for html instead of jade templates.
 app.get('/templates/*', function (req, res) {
     var path = req.params[0];
@@ -37,6 +43,10 @@ app.get('/templates/*', function (req, res) {
 
 app.get('/', routes.index);
 app.get('/users', users.list);
+
+app.get('/lab.2048', lab2048.index);
+
+// ================================================
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
