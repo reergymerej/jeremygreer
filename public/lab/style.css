@@ -1,0 +1,14 @@
+#lab-header #title {
+    float:right;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    opacity: .1;
+    text-align: right;
+}
+
+#lab-header a {
+    margin-right: 1em;
+    line-height: 30px;
+}

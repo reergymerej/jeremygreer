@@ -2,11 +2,18 @@ doctype html
 html
   head
     title= 2048
+    link(rel='stylesheet', href='/lab/style.css')
     link(rel='stylesheet', href='/lab/2048/style.css')
   body
-    a(href='/#/lab') back to the lab
+    div(id='lab-header')
+        h2#title Jeremy Greer
+        a(href='/#/lab') back to the lab
+        a(href='https://github.com/reergymerej/jeremygreer/tree/master/public/lab/2048', target='_blank') view on Github
+
     h1= 2048
-    div(id='grid')
+    div#grid
+
+    p Use the arrow keys to slide the tiles around.  When two tiles with the same value meet, they combine.  Create a 2048 tile to win.
 
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
     script(src='/lab/2048/2048.js')
