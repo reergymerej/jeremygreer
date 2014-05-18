@@ -19,6 +19,9 @@
             .when('/lab', {
                 templateUrl: '/partials/lab.html'
             })
+            .when('/music', {
+                templateUrl: '/partials/music.html'
+            })
             .when('/contact', {
                 templateUrl: '/partials/contact.html'
             })

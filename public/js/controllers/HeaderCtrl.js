@@ -36,6 +36,11 @@
             }),
 
             new Link({
+                text: 'Music',
+                href: '/music'
+            }),
+
+            new Link({
                 text: 'Contact Info',
                 href: '/contact'
             })
