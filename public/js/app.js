@@ -16,6 +16,9 @@
             .when('/resume', {
                 templateUrl: '/partials/resume.html'
             })
+            .when('/portfolio', {
+                templateUrl: '/partials/portfolio.html'
+            })
             .when('/lab', {
                 templateUrl: '/partials/lab.html'
             })

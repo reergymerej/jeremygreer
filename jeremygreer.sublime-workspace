@@ -520,34 +520,29 @@
 	"buffers":
 	[
 		{
-			"file": "public/partials/music.html",
+			"contents": "<div class=\"container\" ng-controller=\"\">\n    <div class=\"page-header\">\n        <h1>Portfolio <small>stuff I made</small></h1>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <h3>Texas Ranger <small><a href=\"https://github.com/reergymerej/texas-ranger\">GitHub</a> <a href=\"https://www.npmjs.org/package/texas-ranger\">npm</a></small></h3>\n            <p>This is an npm module for walking directories in search of files with a certain extension.  It works asynchronously and recursively and uses the module pattern to expose global module settings.</p>\n        </div>\n    </div>\n</div>",
+			"file": "public/partials/portfolio.html",
+			"file_size": 611,
+			"file_write_time": 130450289183092991,
 			"settings":
 			{
-				"buffer_size": 520,
+				"buffer_size": 611,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app.js",
+			"file": "public/partials/lab.html",
 			"settings":
 			{
-				"buffer_size": 1987,
+				"buffer_size": 709,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "routes/music.js",
+			"file": "public/partials/resume.html",
 			"settings":
 			{
-				"buffer_size": 371,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 362,
+				"buffer_size": 1578,
 				"line_ending": "Unix"
 			}
 		}
@@ -555,7 +550,7 @@
 	"build_system": "Packages/User/node.sublime-build",
 	"command_palette":
 	{
-		"height": 75.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -818,15 +813,17 @@
 	"file_history":
 	[
 		"/home/grizzle/code/jeremygreer/package.json",
+		"/home/grizzle/code/jeremygreer/public/partials/contact.html",
+		"/home/grizzle/code/jeremygreer/routes/music.js",
+		"/home/grizzle/code/jeremygreer/public/js/controllers/HeaderCtrl.js",
+		"/home/grizzle/code/jeremygreer/app.js",
+		"/home/grizzle/code/jeremygreer/public/js/app.js",
 		"/home/grizzle/code/jeremygreer/public/music/Death of Recorded Music/another.txt",
 		"/home/grizzle/code/jeremygreer/public/music/foo.txt",
 		"/home/grizzle/.config/sublime-text-3/Packages/User/node.sublime-build",
 		"/home/grizzle/.config/sublime-text-3/Packages/User/node-debug.sublime-build",
 		"/home/grizzle/code/jeremygreer/views/lab/music/index.jade",
 		"/home/grizzle/code/jeremygreer/public/partials/lab.html",
-		"/home/grizzle/code/jeremygreer/app.js",
-		"/home/grizzle/code/jeremygreer/public/js/controllers/HeaderCtrl.js",
-		"/home/grizzle/code/jeremygreer/public/js/app.js",
 		"/home/grizzle/code/jeremygreer/routes/lab/music.js",
 		"/home/grizzle/code/jeremygreer/views/lab/music/index.html",
 		"/home/grizzle/code/jeremygreer/.jshintrc",
@@ -837,7 +834,6 @@
 		"/home/grizzle/code/jeremygreer/public/lab/style.css",
 		"/home/grizzle/code/jeremygreer/public/lab/2048/style.css",
 		"/home/grizzle/code/jeremygreer/routes/lab/2048.js",
-		"/home/grizzle/code/jeremygreer/public/partials/contact.html",
 		"/home/grizzle/code/jeremygreer/routes/index.js",
 		"/home/grizzle/code/jeremygreer/public/partials/resume.html",
 		"/home/grizzle/code/jeremygreer/public/partials/index.html",
@@ -943,8 +939,7 @@
 		"/home/grizzle/code/mean-tasks/public/views/articles/edit.html",
 		"/home/grizzle/code/mean-tasks/app/routes/middlewares/authorization.js",
 		"/home/grizzle/code/mean-tasks/app/controllers/index.js",
-		"/home/grizzle/code/mean-tasks/app/routes/users.js",
-		"/home/grizzle/code/mean-tasks/app/routes/articles.js"
+		"/home/grizzle/code/mean-tasks/app/routes/users.js"
 	],
 	"find":
 	{
@@ -999,6 +994,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"div",
 			"findMusic",
 			"isExtension",
 			"env",
@@ -1125,8 +1121,7 @@
 			"TodoTask",
 			"todoTask",
 			"todoTasks",
-			"todoTask",
-			"TodoTaskSchema"
+			"todoTask"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1272,24 +1267,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/partials/music.html",
+					"file": "public/partials/portfolio.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 520,
+						"buffer_size": 611,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								374,
-								374
+								522,
+								540
 							]
 						],
 						"settings":
@@ -1306,24 +1301,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app.js",
+					"file": "public/partials/lab.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1987,
+						"buffer_size": 709,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								421,
-								421
+								287,
+								287
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -1335,53 +1330,25 @@
 				},
 				{
 					"buffer": 2,
-					"file": "routes/music.js",
+					"file": "public/partials/resume.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 371,
+						"buffer_size": 1578,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								371,
-								371
+								119,
+								119
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 362,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								356,
-								356
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1444,8 +1411,32 @@
 		"selected_items":
 		[
 			[
+				"pac",
+				"package.json"
+			],
+			[
+				"parti/con",
+				"public/partials/contact.html"
+			],
+			[
+				"part/res",
+				"public/partials/resume.html"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"pub/js/ap",
+				"public/js/app.js"
+			],
+			[
 				"app",
 				"app.js"
+			],
+			[
+				"headerjs",
+				"public/js/controllers/HeaderCtrl.js"
 			],
 			[
 				"lab",
@@ -1454,10 +1445,6 @@
 			[
 				"ap",
 				"app.js"
-			],
-			[
-				"pub/js/ap",
-				"public/js/app.js"
 			],
 			[
 				"pub/js/he",
@@ -1490,10 +1477,6 @@
 			[
 				"partial/",
 				"public/partials/contact.html"
-			],
-			[
-				"part/res",
-				"public/partials/resume.html"
 			],
 			[
 				"part/ind",
@@ -1590,10 +1573,6 @@
 			[
 				".git",
 				".gitignore"
-			],
-			[
-				"pack",
-				"package.json"
 			],
 			[
 				"pub/js/",
@@ -1942,18 +1921,6 @@
 			[
 				"app/model/todo",
 				"app/models/todo-task.js"
-			],
-			[
-				"test/moch/cate",
-				"test/mocha/category/model.js"
-			],
-			[
-				"app/contr/todo",
-				"app/controllers/todo-tasks.js"
-			],
-			[
-				"app/rout/",
-				"app/routes/todo-tasks.js"
 			]
 		],
 		"width": 0.0

@@ -26,8 +26,7 @@
 
             new Link({
                 text: 'Portfolio',
-                href: '/portfolio',
-                disabled: true
+                href: '/portfolio'
             }),
             
             new Link({
