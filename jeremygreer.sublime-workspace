@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "public/partials/lab.html",
+			"settings":
+			{
+				"buffer_size": 1084,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/node.sublime-build",
 	"command_palette":
@@ -1240,8 +1248,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "public/partials/lab.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1296,6 +1334,10 @@
 		"selected_items":
 		[
 			[
+				"lab",
+				"public/partials/lab.html"
+			],
+			[
 				"conta",
 				"public/partials/contact.html"
 			],
@@ -1326,10 +1368,6 @@
 			[
 				"headerjs",
 				"public/js/controllers/HeaderCtrl.js"
-			],
-			[
-				"lab",
-				"public/partials/lab.html"
 			],
 			[
 				"ap",
@@ -1815,6 +1853,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"cry",
+				"~/code/cry-baby/cry-baby.sublime-project"
+			],
 			[
 				"te",
 				"~/code/texas-ranger/texas-ranger.sublime-project"
