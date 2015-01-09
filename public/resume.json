@@ -30,12 +30,12 @@
             "dates": "2013 - current",
             "title": "UI Architect",
             "bullets": [
-                "Responsible for designing and maintaining single-page network monitoring app UI using Ext JS 4.2, REST services through OData, and .NET.",
+                "Responsible for design and implementation of single-page network monitoring app UI using Ext JS 4.2, REST services through OData, and .NET.",
                 "Created extensible UI platform components reducing implementation time from weeks to minutes.  Developed framework of dashboards with complex reports and filtering.",
-                "Introduced and implemented client-side MVC architecture, separation of concerns, and lazy loading.  Extended Ext JS framework to allow AngularJS-style component-localized controllers.",
+                "Introduced and implemented client-side MVC architecture, module pattern, and lazy loading.  Extended Ext JS framework to allow AngularJS-style component-localized controllers.",
                 "Created coding standards and design patterns.  Performed code reviews to ensure code hygiene and adherence to standards.  Introduced unit test suites using Jasmine.",
-                "Added JSHint to the automated build.  Refactored existing code from 3,000+ errors down to 0.  Committed 40,000+ lines of lint-free code.",
-                "Mentored developers in advanced JS, frameworks, implementations, and patterns.  Instituted a book club to sharpen developers' skills and encourage professional growth.  Regularly hosted lunch & learn sessions."
+                "Added JSHint to the automated build.  Refactored existing code from 3,000+ errors down to 0.  Committed ~70,000 lines of lint-free code.",
+                "Mentored developers in advanced JS, frameworks, implementations, and patterns.  Instituted a book club to sharpen developers’ skills and encourage professional growth.  Regularly hosted lunch & learn sessions, maintained internal WIKI articles."
             ]
         },
         {
