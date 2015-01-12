@@ -4,6 +4,10 @@ body {
     padding-bottom: 30px;
 }
 
+.ng-cloak {
+    display: none !important;
+}
+
 /* resume */
 #sidebar {
     position: fixed;
