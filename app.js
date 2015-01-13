@@ -11,7 +11,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes');
 var users = require('./routes/user');
-var lab2048 = require('./routes/lab/2048');
+var lab = require('./routes/lab');
 var music = require('./routes/music');
 
 var app = express();
@@ -19,6 +19,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
+app.engine('html', require('ejs').renderFile);
 
 app.use(favicon());
 app.use(logger('dev'));
@@ -46,7 +47,8 @@ app.get('/', routes.index);
 app.get('/users', users.list);
 app.get('/music', music.index);
 
-app.get('/lab.2048', lab2048.index);
+app.get('/lab.2048', lab['2048']);
+app.get('/lab.cube', lab.cube);
 
 // ================================================
 
