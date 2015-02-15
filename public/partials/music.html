@@ -3,12 +3,12 @@
         <h1>Music <small>Watch out, Beethoven.</small></h1>
     </div>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <p>I used to make a <em>lot</em> of music.  This is the official <small>and very incomplete</small> archive.</p>
         </div>
     </div>
     <div class="row" ng-repeat="song in songs">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <h3>{{ song.track }} <small>{{ song.album }}</small></h3>
             <audio controls preload="none">
                 <source src="{{ song.path }}", type="audio/mpeg">
