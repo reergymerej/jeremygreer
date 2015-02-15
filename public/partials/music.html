@@ -4,12 +4,14 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <p>I used to make a <em>lot</em> of music.  This is the official <small>incomplete</small> archive.</p>
+            <p>I used to make a <em>lot</em> of music.  This is the official <small>and very incomplete</small> archive.</p>
         </div>
-        <div class="col-md-6" ng-repeat="song in songs">
-            <!-- <h3>{{ song }}</h3> -->
+    </div>
+    <div class="row" ng-repeat="song in songs">
+        <div class="col-md-6">
+            <h3>{{ song.track }} <small>{{ song.album }}</small></h3>
             <audio controls preload="none">
-                <source src="{{ song }}", type="audio/mpeg">
+                <source src="{{ song.path }}", type="audio/mpeg">
                 Your browser sucks.
             </audio>
         </div>

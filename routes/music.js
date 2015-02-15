@@ -14,7 +14,16 @@ exports.index = function (req, res) {
     } else {
       // change the absolute file path into web-relative
       files = files.map(function (file) {
-        return file.replace(path.join(cwd, 'public'), '');
+        var filepath = file.replace(path.join(cwd, 'public'), '');
+        var parts = filepath.split(path.sep);
+        var album = parts[2];
+        var track = parts[3].replace(/\.mp3$/i, '');
+
+        return {
+          path: filepath,
+          album: album,
+          track: track
+        };
       });
       res.jsonp(files);
     }
