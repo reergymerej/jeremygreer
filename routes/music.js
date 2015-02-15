@@ -1,16 +1,22 @@
 'use strict';
 
+var path = require('path');
 var txRng = require('texas-ranger');
+var cwd = process.cwd();
+var musicPath = path.join(cwd, 'public', 'music');
 
-// TODO: Find the proper way to get the path.
-var PATH = '/home/grizzle/code/jeremygreer/public/music';
+txRng.settings.set('relative', false);
 
 exports.index = function (req, res) {
-    txRng.find(PATH, 'mp3', true, function (err, files) {
-        if (err) {
-            res.end('whoops');
-        } else {
-            res.jsonp(files);
-        }
-    });
+  txRng.find(musicPath, 'mp3', true, function (err, files) {
+    if (err) {
+      res.end('whoops');
+    } else {
+      // change the absolute file path into web-relative
+      files = files.map(function (file) {
+        return file.replace(path.join(cwd, 'public'), '');
+      });
+      res.jsonp(files);
+    }
+  });
 };

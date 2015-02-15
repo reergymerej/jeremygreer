@@ -12,6 +12,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes');
 var users = require('./routes/user');
 var lab2048 = require('./routes/lab/2048');
+var labCube = require('./routes/lab/cube');
 var music = require('./routes/music');
 
 var app = express();
@@ -47,6 +48,7 @@ app.get('/users', users.list);
 app.get('/music', music.index);
 
 app.get('/lab.2048', lab2048.index);
+app.get('/lab.cube', labCube.index);
 
 // ================================================
 

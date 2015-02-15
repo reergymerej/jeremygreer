@@ -13,6 +13,7 @@
         "Node.js",
         "MongoDB",
         "Jasmine",
+        "Mocha",
         "Git",
         "npm/Bower",
         "YUIDoc/jsduck",
@@ -23,6 +24,18 @@
         "Sass",
         "Twitter Bootstrap/jQuery UI",
         "Linux"
+    ],
+    "extracurricular": [
+        {
+            "title": "Willy",
+            "subtitle": "a Node.js assertion library",
+            "links": [
+                { "text": "Github", "href": "https://github.com/reergymerej/willy" },
+                { "text": "npm", "href": "https://www.npmjs.com/package/willy" }
+            ],
+            "description": "a Node.js assertion library with terse, natural assertions; supports promises and easy extension",
+            "tech": []
+        }
     ],
     "experience": [
         {

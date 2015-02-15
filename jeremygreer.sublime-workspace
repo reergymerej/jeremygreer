@@ -523,7 +523,15 @@
 			"file": "public/partials/lab.html",
 			"settings":
 			{
-				"buffer_size": 1084,
+				"buffer_size": 705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/partials/portfolio.html",
+			"settings":
+			{
+				"buffer_size": 1320,
 				"line_ending": "Unix"
 			}
 		}
@@ -975,6 +983,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"texas-ranger",
 			"div",
 			"findMusic",
 			"isExtension",
@@ -1101,8 +1110,7 @@
 			"Tasks",
 			"TodoTask",
 			"todoTask",
-			"todoTasks",
-			"todoTask"
+			"todoTasks"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1248,7 +1256,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1257,15 +1265,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1084,
+						"buffer_size": 705,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								440,
-								440
+								282,
+								282
 							]
 						],
 						"settings":
@@ -1273,6 +1281,33 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/partials/portfolio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								686
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1333,6 +1368,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"port",
+				"public/partials/portfolio.html"
+			],
 			[
 				"lab",
 				"public/partials/lab.html"
@@ -1840,10 +1879,6 @@
 			[
 				"pub/con/cate",
 				"public/js/controllers/categories.js"
-			],
-			[
-				"app/model/cate",
-				"app/models/category.js"
 			]
 		],
 		"width": 0.0
@@ -1853,6 +1888,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"will",
+				"~/code/willy/willy.sublime-project"
+			],
 			[
 				"cry",
 				"~/code/cry-baby/cry-baby.sublime-project"

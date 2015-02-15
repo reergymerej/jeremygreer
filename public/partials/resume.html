@@ -20,6 +20,29 @@
                 </div>
             </div>
 
+            <h3>Open Source and Side Projects</h3>
+            <div ng-repeat="extra in resume.extracurricular">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>{{ extra.title }}</h4>
+                        <small></small>
+                    </div>
+                    <div class="panel-body">
+                        <p>{{ extra.description }}</p>
+                        <ul class="list-inline">
+                            <li ng-repeat="link in extra.links">
+                                <a href="{{ link.href }}">{{ link.text }}</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li ng-repeat="bullet in extra.bullets">
+                                {{ bullet }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
             <h3>Experience</h3>
             <div ng-repeat="job in resume.experience">
                 <a ng-href="#{{ job.company }}"></a>
